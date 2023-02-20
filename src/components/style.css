@@ -1,0 +1,91 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(48, 47, 47);
+}
+.header-container{
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 35, 35);
+    color: antiquewhite;
+    margin-bottom: 5%;
+}
+.title-name{
+    display: flex;
+    justify-content: center;
+}
+.title-description{
+    display: flex;
+    justify-content: center;
+}
+.title-buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.sample-img{
+    display: flex;
+    justify-content: center;
+}
+.skills-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-img{
+    max-height: 150px;
+    max-width: 150px;
+    padding: 2em;
+}
+.skills-list{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.skills-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+}
+.workimg{
+    max-width: 350px;
+    max-height: 350px;
+    padding: 5em;
+}
+.mywork-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5em;
+    justify-content: center;
+}
+.work-title{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(65, 61, 61);
+    color: rgb(247, 247, 247);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info{
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+}
+.bullets{
+    list-style-type: none;
+}
+.image-links{
+    display: flex;
+    padding-left: 8px;
+    margin-left: auto;
+    padding-right: 5px;
+}
+.footer-img{
+    max-width: 75px;
+    max-height: 75px;
+}
