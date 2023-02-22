@@ -4,9 +4,6 @@ import './style.css'
 const Body = () => {
     return (
         <div>
-            <div className='sample-img'>
-                <img src="https://i.pinimg.com/originals/c4/89/b9/c489b9ba8f444ee548506acaf60b1c1e.jpg" alt="placeholder-img"></img>
-            </div>
 
             <div className='skills-div'>
                 <h2 className='skills-title'>Skills:</h2>

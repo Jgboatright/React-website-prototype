@@ -1,5 +1,5 @@
-import './style.css'
-
+import './style.css';
+import { Link } from "react-router-dom";
 const Header = () => {
     return(
         <div className="header-container">
@@ -8,9 +8,14 @@ const Header = () => {
                     My name is Jacob  and I am a frontend developer, specializing in ReactJS and webpage design.
                 </h3>
                 <ul className='title-buttons'>
-                    <li>Homepage</li>
-                    <li>About Me</li>
-                    <li>My Work</li>
+                
+                    <Link to="/"><p className='page-buttons'>Homepage</p></Link>
+                    <br />
+                    <Link to="/AboutMe"><p className='page-buttons'>About Me</p></Link>
+                    <br />
+                    <Link to="/Portfolio"><p className='page-buttons'>My Work</p></Link>
+                    <br />
+                
                 </ul>
         </div> 
 
